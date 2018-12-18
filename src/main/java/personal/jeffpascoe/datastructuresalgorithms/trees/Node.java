@@ -2,9 +2,9 @@ package personal.jeffpascoe.datastructuresalgorithms.trees;
 
 public class Node<T extends Comparable> implements Comparable<Node> {
     private T data;
-    Node parent;
-    Node leftChild;
-    Node rightChild;
+    private Node parent;
+    private Node leftChild;
+    private Node rightChild;
 
     public Node(T data) {
         this.data = data;
