@@ -46,7 +46,7 @@ public class BinarySearchTree {
     }
 
     private void preOrder(Node node) {
-        if (node == null) {
+        if (node != null) {
             System.out.print(node.getData() + " ");
             preOrder(node.getLeftChild());
             preOrder(node.getRightChild());
