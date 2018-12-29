@@ -7,12 +7,17 @@ public class Main {
 
     public static void main(String[] args) {
         BinarySearchTree bst = new BinarySearchTree();
+        AVLTree avl = new AVLTree();
+
         List<Integer> ints = Arrays.asList(1,2,3,42,5,98,4,2323,4,6);
 
         for(Integer i : ints) {
             bst.insert(i);
+            avl.insert(i);
         }
+
         bst.print("preorder");
+        avl.print("preorder");
     }
 
 }

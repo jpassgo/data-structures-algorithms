@@ -1,4 +1,6 @@
 package personal.jeffpascoe.datastructuresalgorithms.trees;
 
-public class AVLTree {
+public class AVLTree extends BinarySearchTree {
+
+
 }
